@@ -1,0 +1,18 @@
+material Duck/Diffuse
+{
+  receive_shadows off
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture duck.png
+        filtering anistropic
+        max_anisotropy 16
+      }
+      
+    }
+  }
+}
+

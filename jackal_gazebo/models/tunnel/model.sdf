@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="tunnel">
+    <static>true</static>
+    <link name="chassis">
+      <pose>-10.15 -0.762 0 0 0 0</pose>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://tunnel/meshes/tunnel.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://tunnel/meshes/tunnel.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://tunnel/materials/scripts</uri>
+            <uri>model://tunnel/materials/textures</uri>
+            <name>Tunnel/Diffuse</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>

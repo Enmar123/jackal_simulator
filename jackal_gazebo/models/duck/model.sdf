@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="duck">
+    <static>true</static>
+    <link name="chassis">
+      <pose>0 0 0 1.57 0 0</pose>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://duck/meshes/duck.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://duck/meshes/duck.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://duck/materials/scripts</uri>
+            <uri>model://duck/materials/textures</uri>
+            <name>Duck/Diffuse</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>
