@@ -7,21 +7,21 @@
       <collision name="collision">
         <geometry>
           <mesh>
-            <uri>model://tunnel/meshes/tunnel.stl</uri>
+            <uri>model://tunnel/meshes/tunnel.dae</uri>
           </mesh>
         </geometry>
       </collision>
       <visual name="visual">
         <geometry>
           <mesh>
-            <uri>model://tunnel/meshes/tunnel.stl</uri>
+            <uri>model://tunnel/meshes/tunnel.dae</uri>
           </mesh>
         </geometry>
         <material>
           <script>
             <uri>model://tunnel/materials/scripts</uri>
             <uri>model://tunnel/materials/textures</uri>
-            <name>Tunnel/Diffuse</name>
+            <name>Concrete/Diffuse</name>
           </script>
         </material>
       </visual>
